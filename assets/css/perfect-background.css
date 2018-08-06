@@ -1,0 +1,11 @@
+html {
+  /* background: url(../images/perfect-background-image.png) no-repeat center center fixed;  */
+  background-image: url(./assets/stylesheets/img/perfect-background-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+}
