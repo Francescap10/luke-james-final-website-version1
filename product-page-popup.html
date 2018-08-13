@@ -53,14 +53,16 @@
         <li class="nav-item">
           <a class="nav-link" href="media.html">Media</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="merchandise.html">Merchandise <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="merchandise.html">Merchandise</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tour.html">Tour</a>
+        <li class="nav item active">
+        </li>
       </ul>
       <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item active">
@@ -104,23 +106,26 @@
 </head>
 </section>
 
+<a href="merchandise.html">Merchandise</a>
 
+<section>
+<div class="row">
 <div class="col-md-6 col-sm-6">
-                      <h2 class="title"> Becky Silk Blazer </h2>
-                      <h3 class="main-price">$335</h3>
-                      <div id="accordion" role="tablist">
-                          <div class="card card-collapse">
-                              <div class="card-header" role="tab" id="headingOne">
+      <h2 class="title"> Luke James Mens T-shirt </h2>
+            <h3 class="main-price">$25</h3>
+                <div id="accordion" role="tablist">
+                    <div class="card card-collapse">
+                          <div class="card-header" role="tab" id="headingOne">
                                   <h5 class="mb-0">
                                       <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                          Description
+                                          Description:
                                           <i class="material-icons">keyboard_arrow_down</i>
                                       </a>
                                   </h5>
                               </div>
                               <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                                   <div class="card-body">
-                                      <p>Eres&apos; daring &apos;Grigri Fortune&apos; swimsuit has the fit and coverage of a bikini in a one-piece silhouette. This fuchsia style is crafted from the label&apos;s sculpting peau douce fabric and has flattering cutouts through the torso and back. Wear yours with mirrored sunglasses on vacation.</p>
+                                      <p>Mens t-shirt 90% cotton 20% spandex, fits true to size</p>
                                   </div>
                               </div>
                           </div>
@@ -128,14 +133,21 @@
                               <div class="card-header" role="tab" id="headingTwo">
                                   <h5 class="mb-0">
                                       <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                          Designer Information
+                                          Customer Reviews
                                           <i class="material-icons">keyboard_arrow_down</i>
                                       </a>
                                   </h5>
                               </div>
                               <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                                   <div class="card-body">
-                                      An infusion of West Coast cool and New York attitude, Rebecca Minkoff is synonymous with It girl style. Minkoff burst on the fashion scene with her best-selling &apos;Morning After Bag&apos; and later expanded her offering with the Rebecca Minkoff Collection - a range of luxe city staples with a &quot;downtown romantic&quot; theme.
+                                    <button class="btn btn-primary">
+                                      <i class="material-icons">star</i>
+                                      <i class="material-icons">star</i>
+                                      <i class="material-icons">star</i>
+                                      <i class="material-icons">star</i>
+                                      <i class="material-icons">star</i>
+                                    </button>
+                                    <p>Fits as suggested! Very comfortable and easy to wash!</p>
                                   </div>
                               </div>
                           </div>
@@ -150,20 +162,40 @@
                               </div>
                               <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                                   <div class="card-body">
-                                      <ul>
-                                          <li>Storm and midnight-blue stretch cotton-blend</li>
-                                          <li>Notch lapels, functioning buttoned cuffs, two front flap pockets, single vent, internal pocket</li>
-                                          <li>Two button fastening</li>
-                                          <li>84% cotton, 14% nylon, 2% elastane</li>
-                                          <li>Dry clean</li>
-                                      </ul>
+                                      <p>Machine Washable</p>
                                   </div>
                               </div>
                           </div>
                       </div>
-                      <div class="row pick-size">
-                          <div class="col-md-6 col-sm-6">
-                              <label>Select color</label>
+                      <div class="card card-collapse">
+                          <div class="card-header" role="tab" id="headingFour">
+                              <h5 class="mb-0">
+                                  <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      Have a Promo Code?
+                                      <i class="material-icons">keyboard_arrow_down</i>
+                                  </a>
+                              </h5>
+                          </div>
+                          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                              <div class="card-body">
+                                  <ul>
+                                        <div class="input group">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text" id="btnGroupAddon">Promo Code</div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="XXXX"aria-label="XXXX" aria-describedby="btnGroupAddon">
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              <div class="row pick-size">
+                    <div class="col-md-6 col-sm-6">
+                        <label>Select color</label>
                               <select class="selectpicker" data-style="select-with-transition" data-size="7">
                                   <option value="1">Rose </option>
                                   <option value="2">Gray</option>
@@ -185,3 +217,43 @@
                   </div>
               </div>
           </div>
+        </div>
+  </section>
+
+
+          <script src="../assets/js/plugins/bootstrap-selectpicker.js"></script>
+          <script src="../assets/js/plugins/bootstrap-tagsinput.js"></script>
+          <script src="../assets/js/plugins/jasny-bootstrap.min.js"></script>
+          <script src="./assets/js/plugins/nouislider.min.js"></script>
+          <script>
+                  $(document).ready(function() {
+
+                      //init DateTimePickers
+                      materialKit.initFormExtendedDatetimepickers();
+
+                      // Sliders Init
+                      materialKit.initSliders();
+                  });
+              </script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+            < script src = "js/bootstrap.min.js" >
+          </script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <script src="./assets/js/core/jquery.min.js"></script>
+          <script src="./assets/js/core/popper.min.js"></script>
+          <script src="./assets/js/bootstrap-material-design.js"></script>
+          <script src="./assets/js/plugins/moment.min.js"></script>
+          <script src="./assets/js/modernizr.js"></script>
+          <script src="./assets/js/material-kit.js?v=2.0.3"></script>
+          <script src="./assets/js/material-kit-demo.js"></script>
+      </body>
+    </html>
